@@ -1,10 +1,17 @@
 import './App.css';
-import HttpGetMethods from './Components/HttpGetMethod';
+import UseStateName from './Components/UseStateName';
+// import HttpGetMethods from './Components/HttpGetMethod';
 
 function App() {
   return (
     <div className="App">
-       <HttpGetMethods/>
+
+       {/* <HttpGetMethods/> */}
+
+       {/* By default functional based components as a pure component */}
+       <UseStateName/>
+
+
     </div>
   );
 }
