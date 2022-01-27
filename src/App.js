@@ -1,5 +1,6 @@
 import './App.css';
-import UseStateName from './Components/UseStateName';
+import Parent from './Components/Parent';
+// import UseStateName from './Components/UseStateName';
 // import HttpGetMethods from './Components/HttpGetMethod';
 
 function App() {
@@ -9,9 +10,10 @@ function App() {
        {/* <HttpGetMethods/> */}
 
        {/* By default functional based components as a pure component */}
-       <UseStateName/>
+       {/* <UseStateName/> */}
 
-
+        {/* make pure component using one class component as parent and function component as child component */}
+        <Parent/>
     </div>
   );
 }
