@@ -1,5 +1,6 @@
 import './App.css';
-import Parent from './Components/Parent';
+import HttpPostMethod from './Components/HttpPostMethod';
+// import Parent from './Components/Parent';
 // import UseStateName from './Components/UseStateName';
 // import HttpGetMethods from './Components/HttpGetMethod';
 
@@ -13,7 +14,11 @@ function App() {
        {/* <UseStateName/> */}
 
         {/* make pure component using one class component as parent and function component as child component */}
-        <Parent/>
+        {/* <Parent/> */}
+
+
+        {/* howw to post dat to apis */} 
+        <HttpPostMethod/>
     </div>
   );
 }
