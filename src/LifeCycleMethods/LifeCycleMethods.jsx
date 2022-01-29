@@ -5,34 +5,45 @@ export default class LifeCycleMethods extends Component {
       super(props)
     
       this.state = {
-         count:0
+         count:0,
+         name:""
       }
     }
     interval;
     
     updateCount = () =>
     {
-        console.log("counter Updated");
+        // console.log("counter Updated");
         this.setState({count:this.state.count+1})
+    }
+
+    updateName = () =>
+    {
+        this.setState({name:"sandy"})
     }
 
     componentDidMount()
     {
         document.title = `title from didMount ${this.state.count} times`
-        this.interval = setInterval(this.updateCount,1000);
+        // this.interval = setInterval(this.updateCount,1000);
     }
     componentDidUpdate(prevProps, prevState)
     {
-        document.title = `title from didUpdate ${this.state.count} times`
+        if(prevState.count !== this.state.count){
+            document.title = `title from didUpdate ${this.state.count} times`
+            console.log("counter Updated");
+        }
+      
     }
     componentWillUnmount(){
         console.log("counter removed successfully");
-        clearInterval(this.interval)
+        // clearInterval(this.interval)
     }
     render() {
     return <div>
         <h1>Count : {this.state.count} </h1>
-        {/* <button onClick={this.updateCount}>Update</button> */}
+        <input type="text" onChange={this.updateName}/>
+        <button onClick={this.updateCount}>Update</button>
     </div>;
   }
 }
