@@ -1,5 +1,7 @@
 import './App.css';
-import HttpPostMethod from './Components/HttpPostMethod';
+import AddRemoveComponent from './LifeCycleMethods/AddRemoveComponent';
+// import LifeCycleMethods from './LifeCycleMethods/LifeCycleMethods';
+// import HttpPostMethod from './Components/HttpPostMethod';
 // import Parent from './Components/Parent';
 // import UseStateName from './Components/UseStateName';
 // import HttpGetMethods from './Components/HttpGetMethod';
@@ -18,7 +20,12 @@ function App() {
 
 
         {/* howw to post dat to apis */} 
-        <HttpPostMethod/>
+        {/* <HttpPostMethod/> */}
+
+
+        {/* Life Cycle Methods */}
+        {/* <LifeCycleMethods/> */}
+        <AddRemoveComponent/>
     </div>
   );
 }
