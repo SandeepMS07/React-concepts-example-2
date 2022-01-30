@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
-import LifeCycleMethods from './LifeCycleMethods';
+import UseEffect from '../ReactHooks/UseEffect';
+// import LifeCycleMethods from './LifeCycleMethods';
 
 function AddRemoveComponent() {
   const [isbool, setisbool] = useState(true);
   return <div>
-      {isbool && <LifeCycleMethods/>}
+      {/* {isbool && <LifeCycleMethods/>} */}
+      {isbool && <UseEffect/>}
       {isbool+""}
       <hr />
       <button onClick={()=>
