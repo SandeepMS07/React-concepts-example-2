@@ -1,7 +1,8 @@
 import './App.css';
 // import UseEffect from './ReactHooks/UseEffect';
 // import AddRemoveComponent from './LifeCycleMethods/AddRemoveComponent';
-import UseState from './ReactHooks/UseState';
+// import UseState from './ReactHooks/UseState';
+import UseStateArray from './ReactHooks/UseStateArray';
 // import LifeCycleMethods from './LifeCycleMethods/LifeCycleMethods';
 // import HttpPostMethod from './Components/HttpPostMethod';
 // import Parent from './Components/Parent';
@@ -30,7 +31,8 @@ function App() {
         {/* <AddRemoveComponent/> */}
 
         {/* React Hooks*/}
-        <UseState/>
+        {/* <UseState/> */}
+        <UseStateArray/>
         {/* <UseEffect/> */}
 
     </div>
