@@ -32,7 +32,7 @@ function UseState() {
     }
     // let updateFn = (e) =>
     // {
-    //    setdata({...data,fn:e.target.value})
+    //    setdata({...data,fn:e.target.value})b
     // }
 
     // let updateLn = (e) =>
