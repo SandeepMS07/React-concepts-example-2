@@ -1,8 +1,9 @@
 import './App.css';
+import FormValidWithout3rdPartyLibrary from './FormValidation/FormValidWithout3rdPartyLibrary';
 // import UseEffect from './ReactHooks/UseEffect';
 // import AddRemoveComponent from './LifeCycleMethods/AddRemoveComponent';
 // import UseState from './ReactHooks/UseState';
-import UseStateArray from './ReactHooks/UseStateArray';
+// import UseStateArray from './ReactHooks/UseStateArray';
 // import LifeCycleMethods from './LifeCycleMethods/LifeCycleMethods';
 // import HttpPostMethod from './Components/HttpPostMethod';
 // import Parent from './Components/Parent';
@@ -32,8 +33,17 @@ function App() {
 
         {/* React Hooks*/}
         {/* <UseState/> */}
-        <UseStateArray/>
+        {/* <UseStateArray/> */}
         {/* <UseEffect/> */}
+
+
+      {/* Form Validation without 3rd party library */}
+      <FormValidWithout3rdPartyLibrary/>
+
+
+
+
+
 
     </div>
   );
