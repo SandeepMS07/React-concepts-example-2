@@ -3,8 +3,8 @@ import D from './D';
 // import B from './B';
 // passing directly to d component without passing props down 
 
-export let studentContext = React.createContext()
-export let employeeContext = React.createContext()
+export let studentContext = React.createContext("jspiders")
+export let employeeContext = React.createContext("qspiders")
 
 function A() {
   return <studentContext.Provider value={"Dinga"}>
