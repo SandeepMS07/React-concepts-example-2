@@ -1,6 +1,8 @@
 import './App.css';
+// import MultipleUseReducer from './ReactHooks/useReducer/MultipleUseReducer';
+import MultipleUseReducerPassingValue from './ReactHooks/useReducer/MultipleUseReducerPassingValue';
 // import UseReduceHook from './ReactHooks/useReducer/UseReduceHook';
-import UseReducerMultipleKeyWithObject from './ReactHooks/useReducer/UseReducerMultipleKeyWithObject';
+// import UseReducerMultipleKeyWithObject from './ReactHooks/useReducer/UseReducerMultipleKeyWithObject';
 // import UseReducerWithObject from './ReactHooks/useReducer/UseReducerWithObject';
 // import A from './ReactHooks/useContext/A';
 // import FormValidWithout3rdPartyLibrary from './FormValidation/FormValidWithout3rdPartyLibrary';
@@ -45,13 +47,18 @@ function App() {
 
         {/* UseReducer Hook */}
         {/* <UseReduceHook/> */}
+        
         {/* UseReducer with Objects */}
         {/* <UseReducerWithObject/> */}
+
         {/* useReducer with multiple key ine one object */}
-        <UseReducerMultipleKeyWithObject/>
+        {/* <UseReducerMultipleKeyWithObject/> */}
 
+        {/* multiple useReducer  */}
+        {/* <MultipleUseReducer/> */}
 
-
+        {/* passing value to multiple UseReducer */}
+        <MultipleUseReducerPassingValue/>
 
 
 
