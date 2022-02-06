@@ -1,5 +1,6 @@
 import './App.css';
-import MultipleUseReducer from './ReactHooks/useReducer/MultipleUseReducer';
+// import MultipleUseReducer from './ReactHooks/useReducer/MultipleUseReducer';
+import MultipleUseReducerPassingValue from './ReactHooks/useReducer/MultipleUseReducerPassingValue';
 // import UseReduceHook from './ReactHooks/useReducer/UseReduceHook';
 // import UseReducerMultipleKeyWithObject from './ReactHooks/useReducer/UseReducerMultipleKeyWithObject';
 // import UseReducerWithObject from './ReactHooks/useReducer/UseReducerWithObject';
@@ -54,9 +55,10 @@ function App() {
         {/* <UseReducerMultipleKeyWithObject/> */}
 
         {/* multiple useReducer  */}
-        <MultipleUseReducer/>
+        {/* <MultipleUseReducer/> */}
 
-
+        {/* passing value to multiple UseReducer */}
+        <MultipleUseReducerPassingValue/>
 
 
 
