@@ -1,5 +1,7 @@
 import './App.css';
-import A from './ReactHooks/useContext/A';
+import UseReduceHook from './ReactHooks/useReducer/UseReduceHook';
+import UseReducerWithObject from './ReactHooks/useReducer/UseReducerWithObject';
+// import A from './ReactHooks/useContext/A';
 // import FormValidWithout3rdPartyLibrary from './FormValidation/FormValidWithout3rdPartyLibrary';
 // import UseEffect from './ReactHooks/UseEffect';
 // import AddRemoveComponent from './LifeCycleMethods/AddRemoveComponent';
@@ -38,8 +40,27 @@ function App() {
         {/* <UseEffect/> */}
 
         {/* useContext */}
-        <A/>
+        {/* <A/> */}
 
+        {/* UseReducer Hook */}
+        {/* <UseReduceHook/> */}
+        {/* UseReducer with Objects */}
+        <UseReducerWithObject/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
 
       {/* Form Validation without 3rd party library */}
       {/* <FormValidWithout3rdPartyLibrary/> */}
