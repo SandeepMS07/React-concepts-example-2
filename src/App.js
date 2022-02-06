@@ -1,6 +1,7 @@
 import './App.css';
-import UseReduceHook from './ReactHooks/useReducer/UseReduceHook';
-import UseReducerWithObject from './ReactHooks/useReducer/UseReducerWithObject';
+// import UseReduceHook from './ReactHooks/useReducer/UseReduceHook';
+import UseReducerMultipleKeyWithObject from './ReactHooks/useReducer/UseReducerMultipleKeyWithObject';
+// import UseReducerWithObject from './ReactHooks/useReducer/UseReducerWithObject';
 // import A from './ReactHooks/useContext/A';
 // import FormValidWithout3rdPartyLibrary from './FormValidation/FormValidWithout3rdPartyLibrary';
 // import UseEffect from './ReactHooks/UseEffect';
@@ -45,7 +46,9 @@ function App() {
         {/* UseReducer Hook */}
         {/* <UseReduceHook/> */}
         {/* UseReducer with Objects */}
-        <UseReducerWithObject/>
+        {/* <UseReducerWithObject/> */}
+        {/* useReducer with multiple key ine one object */}
+        <UseReducerMultipleKeyWithObject/>
 
 
 
@@ -59,8 +62,6 @@ function App() {
 
 
 
-
-        
 
       {/* Form Validation without 3rd party library */}
       {/* <FormValidWithout3rdPartyLibrary/> */}
