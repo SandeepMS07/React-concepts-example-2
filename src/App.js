@@ -1,6 +1,8 @@
 import './App.css';
+// import ReactHookForm from './FormValidation/FormValidation-Using-3rd-Part-Library/ReactHookForm';
+import YupValidation from './FormValidation/FormValidation-Using-3rd-Part-Library/YupValidation';
 // import MultipleUseReducer from './ReactHooks/useReducer/MultipleUseReducer';
-import MultipleUseReducerPassingValue from './ReactHooks/useReducer/MultipleUseReducerPassingValue';
+// import MultipleUseReducerPassingValue from './ReactHooks/useReducer/MultipleUseReducerPassingValue';
 // import UseReduceHook from './ReactHooks/useReducer/UseReduceHook';
 // import UseReducerMultipleKeyWithObject from './ReactHooks/useReducer/UseReducerMultipleKeyWithObject';
 // import UseReducerWithObject from './ReactHooks/useReducer/UseReducerWithObject';
@@ -58,7 +60,7 @@ function App() {
         {/* <MultipleUseReducer/> */}
 
         {/* passing value to multiple UseReducer */}
-        <MultipleUseReducerPassingValue/>
+        {/* <MultipleUseReducerPassingValue/> */}
 
 
 
@@ -73,9 +75,10 @@ function App() {
       {/* Form Validation without 3rd party library */}
       {/* <FormValidWithout3rdPartyLibrary/> */}
 
-
-
-
+      {/* Form Validation using 3rd party library */}
+      {/* React-Hook-Form */}
+      {/* <ReactHookForm/> */}
+      <YupValidation/>
 
 
     </div>
