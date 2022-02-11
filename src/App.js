@@ -1,7 +1,8 @@
 import './App.css';
+import UseReducerWithUseContext from './ReactHooks/useReducer/useReducer-with-useContext/UseReducerWithUseContext';
 // import ReactHookForm from './FormValidation/FormValidation-Using-3rd-Part-Library/ReactHookForm';`
 // import YupValidation from './FormValidation/FormValidation-Using-3rd-Part-Library/YupValidation';
-import UseReducerWithUseEffect from './ReactHooks/useReducer/UseReducerWithUseEffect';
+// import UseReducerWithUseEffect from './ReactHooks/useReducer/UseReducerWithUseEffect';
 // import MultipleUseReducer from './ReactHooks/useReducer/MultipleUseReducer';
 // import MultipleUseReducerPassingValue from './ReactHooks/useReducer/MultipleUseReducerPassingValue';
 // import UseReduceHook from './ReactHooks/useReducer/UseReduceHook';
@@ -64,9 +65,10 @@ function App() {
         {/* <MultipleUseReducerPassingValue/> */}
 
         {/* useReducer With UseEffect */}
-        <UseReducerWithUseEffect/>
+        {/* <UseReducerWithUseEffect/> */}
 
-
+        {/* useReducer With UseContext */}
+        <UseReducerWithUseContext/>
 
 
 

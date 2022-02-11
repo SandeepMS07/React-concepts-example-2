@@ -26,13 +26,13 @@ function UseReducerWithUseEffect() {
     const [user, dispatcher] = useReducer(reducer, initialState);
 
     useEffect(() => {
-       axios.get("https://api.github.com/users/mojombo").
-       then(res =>
+       axios.get("https://api.github.com/users/mojombo")
+       .then(res =>
         {
             console.log(res.data);
             dispatcher({type:"fetch-data",data:res.data})
-        }).
-        catch(err=>
+        })
+        .catch(err=>
             {
                 dispatcher({type:"fetch-error"})
             })
@@ -41,7 +41,7 @@ function UseReducerWithUseEffect() {
     
 
   return <div>
-            <h1>{user.isLoading?<div className="loader"></div>:<img src={user.myUser.avatar_url}/>}</h1>
+            <h1>{user.isLoading?<div className="loader"></div>:<img src={user.myUser.avatar_url} alt=""/>}</h1>
             <h1>{user.error?user.error:null}</h1>
          </div>
 }
