@@ -1,5 +1,6 @@
 import './App.css';
-import UseCallBack from './ReactHooks/useCallBack/UseCallBack';
+import UseMemo from './ReactHooks/UseMemo';
+// import UseCallBack from './ReactHooks/useCallBack/UseCallBack';
 // import UseReducerWithUseContext from './ReactHooks/useReducer/useReducer-with-useContext/UseReducerWithUseContext';
 // import ReactHookForm from './FormValidation/FormValidation-Using-3rd-Part-Library/ReactHookForm';`
 // import YupValidation from './FormValidation/FormValidation-Using-3rd-Part-Library/YupValidation';
@@ -72,8 +73,10 @@ function App() {
         {/* <UseReducerWithUseContext/> */}
 
         {/* UseCallBack Hook */}
-        <UseCallBack/>
+        {/* <UseCallBack/> */}
 
+        {/* useMemo Hook */}
+        <UseMemo/>
 
 
 
