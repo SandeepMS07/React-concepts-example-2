@@ -19,6 +19,9 @@ function YupValidation() {
     // console.log(register("sandy"));
     console.log(errors);
 
+
+    
+
     let inpObj = 
     {
         type:'text',
